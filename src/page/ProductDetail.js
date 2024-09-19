@@ -15,6 +15,7 @@ const ProductDetail = () => {
   useEffect(()=>{
     getProductDetail()
   },[])
+  
   return (
     <Container>
       <Row>

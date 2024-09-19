@@ -58,7 +58,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
 
         <div className='nav-logo'>
           <Link to="/">
-            <img width={100} src="https://www.hm.com/entrance/assets/bundle/img/HM-Share-Image.jpg"/>
+            <img width={100} src="https://www.hm.com/entrance/assets/bundle/img/HM-Share-Image.jpg" alt=''/>
           </Link>
         </div>
 
