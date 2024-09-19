@@ -1,11 +1,6 @@
 
 /**** Navbar.js ****/
 /*** ①side-menu ***/
-@media screen and (max-width: 63rem){
-    .hide{ visibility: visible;}
-    .nav-menu-area .menu-list{display: none;}
-    .search{display: none;}
-}
 .side-menu{
     height: 100%;
     width: 250px;
@@ -100,6 +95,12 @@
     visibility: hidden;
 }
 
+@media screen and (max-width: 63rem){
+    .hide{ visibility: visible;}
+    .nav-menu-area .menu-list{display: none;}
+    .search{display: none;}
+}
+
 .card {
     border: none !important;
     margin-bottom: 10px;
@@ -120,3 +121,4 @@
 .d-grid{
     margin-top: 20px;
 }
+
